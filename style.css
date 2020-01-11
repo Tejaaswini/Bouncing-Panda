@@ -1,0 +1,84 @@
+/*// BASE STYLES //*/
+
+html, body{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .sky{
+    position: relative;
+  }
+  
+  .sky{
+    height: 100%;
+    background: skyblue;
+  }
+  
+  
+  /*// ELEMENTS TO ANIMATE //*/
+
+  .panda{
+    position: relative;
+    top:-400px;
+    left:450px;
+    width:35%;
+    height:auto;    
+    -webkit-animation: rotation 2s infinite linear,roll 5s infinite linear;
+}
+}
+
+  .cloud{
+      position: relative;
+      top:20px;
+      left:0px;
+  }
+  
+  .clouds{
+    position: relative;
+    top:500px;
+    left:25px;
+}
+
+.cloudss{
+    position: relative;
+    top:350px;
+    left:300px;
+}
+
+.cloudsss{
+    position: relative;
+    left:200px;
+}
+
+
+  /*// KEYFRAMES 
+  @keyframes roll{
+      from{transform:translateY(10px);}
+    to{transform:translateY(500px);}
+  }//*/
+
+  @-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }   
+}
+
+@-webkit-keyframes roll{
+    0% {top:-400px;}
+    50% {top:200px;}
+    100%{top:-400px;}
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
